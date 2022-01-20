@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+div.quadrado{
+    background-color: gray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1.5px solid black;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+div.quadrado:hover {
+    background-color: yellow;
+}
+div#d4:hover {
+    color: brown;
+}
+div#d4 > p {
+    display: none;
+}
+div#d4:hover > p {
+    display: block;
+    color: white;
+    background-color: black;
+    width: 200px;
+    text-align: center;
+}
+
+
