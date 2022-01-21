@@ -1,2 +1,85 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+html, body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgray;
+    min-height: 100vh;
+    
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+header > h1{
+    padding-top: 50px;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;    
+}
+header p{
+    padding-bottom: 50px;
+}
+section{
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal{
+    
+    color: black;
+}
+section#fotoamarela{
+    background-image: url(imagens/background001.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    border: 1px solid black;
+    
+    
+}
+section#fotoamarela p{
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    
+    
+}
+section#fotolivro{
+    background-image: url(imagens/background002.jpg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    border: 1px solid black;
+    
+    
+}
+section#fotolivro p{
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    
+}
