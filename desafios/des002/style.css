@@ -48,22 +48,22 @@ section{
     font-size: 3.5vh;
 }
 section p{
-    font-size: 5vh;
+    padding-bottom: 2em;
 }
 section.normal{
     color: black;
 }
 section#fotoamarela{
     background-image: url(imagens/background001.jpg);
-    background-position: left bottom;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    border: 1px solid black;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.414);
 }
 section#fotoamarela p{
     color: white;
-    background-color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(0, 0, 0, 0.514);
     display: inline-block;
     padding: 5px;
 }
@@ -73,7 +73,7 @@ section#fotolivro{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    border: 1px solid black;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.329);
 }
 section#fotolivro p{
     color: white;
