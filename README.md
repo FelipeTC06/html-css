@@ -1,4 +1,3 @@
-# html-css
- Curso html e css
-
- Estou aprendendo a criar sites e gerenciar no repositorio
+# HTML5 E CSS3
+ Curso HTML5 e CSS3 do professor Gustavo Guanabara
+    +120 Horas de Aulas.    
